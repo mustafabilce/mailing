@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cow & Gate</title>
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css?family=Nunito:400,400i,700,700i&display=swap');
+        body {
+            margin: 0;
+            padding: 0;
+            min-width: 100% !important;
+            font-family: 'Nunito', Helvetica, Arial, sans-serif !important
+        }
+        @media (max-width: 500px) {
+            .banner {
+                height: 227px !important;
+            }
+            .banner img {
+                max-width: 120px !important;
+                max-height: 73px !important;
+                right: 48px !important;
+            }
+            .banner h1 {
+                font-size: 27px !important;
+            }
+            .banner h1.first-title {
+                top: 90px !important;
+            }
+            .banner h1.second-title {
+                top: 126px !important;
+            }
+            .cards {
+                flex-direction: column !important;
+                padding: 40px 80px !important;
+                height: 100% !important;
+            }
+            .cards .card {
+                margin-bottom: 15px !important;
+            }
+            .cashback {
+                padding: 0 39px !important;
+            }
+            .cashback .cards-content h3 {
+                margin-bottom: 0 !important;
+            }
+            .cashback .cards-content h1 {
+                margin-top: 5px !important;
+            }
+            .boxes {
+                height: 100% !important;
+            }
+            .boxes .box-1 {
+                left: 37px !important;
+            }
+            .boxes .box-2 {
+                left: 104px !important;
+            }
+            .boxes .box-3 {
+                left: 170px !important;
+            }
+            .boxes .box-4 {
+                display: none !important;
+            }
+            .cards-buttons .buttons {
+                flex-direction: column !important;
+            }
+            .cards-buttons .buttons button {
+                margin-bottom: 25px !important;
+                width: 184px !important;
+                padding: 8px 0 !important;
+            }
+            .cards-buttons p {
+                display: none !important;
+            }
+            .topics {
+                flex-direction: column !important;
+                margin: 0 !important;
+            }
+            .topics .topic {
+                margin-bottom: 20px;
+            }
+            .topics .topic .text {
+                width: 100% !important;
+            }
+            .know-more .darkgray-box .white-icon-box {
+                top: -18% !important;
+            }
+            .footer .links {
+                flex-direction: column !important;
+                text-align: center;
+            }
+            .footer .links a {
+                margin-bottom: 15px !important;
+            }
+        }
+    </style>
+  </head>
+  <body>
+    <div class="content" style="width: 100%; max-width: 620px; margin: 0 auto; position: relative; overflow-x: hidden; border: 1px solid #EBEBEB;">
+        <div class="header" style="max-width: 620px; display: flex; justify-content: space-between; align-items: center; padding: 17px 37px;">
+            <img style="width: 64px; height: 45px;" src="img/logo.png" alt="">
+            <a href="#" style="text-decoration: none;"><span style="font-size: 11px; color: #4C4C4C;">View on browser</span></a>
+        </div>
+        <div class="banner" style="background-image: url(img/top-bg); background-position: center; background-repeat: no-repeat; background-size: cover; height: 345px; position: relative;">
+            <img style="max-width: 168px; max-height: 102px; position: absolute; right: 70px; top: 30px;" src="img/scan-save" alt="">
+            <h1 class="first-title" style="color: #00763C; position: absolute; right: 50px; top: 110px; transform: matrix(1, -0.09, 0.09, 1, 0, 0); font-size: 40px; font-weight: 700;">Lorem ipsum</h1>
+            <h1 class="second-title" style="color: #00763C; position: absolute; right: 50px; top: 160px; font-size: 40px; font-weight: 700;">dolor sit amet</h1>
+        </div>
+        <div class="dear" style="padding: 34px 40px; display: flex; flex-direction: column; align-items: center;">
+            <h4 style="color: #00763C; font-size: 20px; font-weight: 700; letter-spacing: 0; margin-top: 0; margin-bottom: 16px; width: 100%; text-align: left;">Dear Julie,</h4>
+            <p style="color: #575556; font-size: 15px; line-height: 24px; font-weight: 700; margin-bottom: 20px; text-align: left">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+            </p>
+            <button style="background: #00763C 0% 0% no-repeat padding-box; border: none; color: #fff; width: 184px; border-radius: 19px; font-size: 18px; font-weight: 700; letter-spacing: 0; text-align: center; padding: 10px 0;">Learn More</button>
+        </div>
+        <div class="cards" style="background-color: #C8E7F8; position: relative; height: 270px; display: flex; flex-direction: row; align-items: center; padding: 40px 43px 10px 43px;">
+            <div class="card" style="width: 100%; background-color: #fff; border-radius: 12px; margin: 0 5px;">
+                <img style="width: 100%; height: 75px; border-radius: 12px 12px 0px 0px;" src="img/card-1" alt="card-1">
+                <div class="card-detail" style="padding: 9px; display: flex; flex-direction: column; justify-content: space-between;">
+                    <h4 style="width: 80%; margin-top: 0; margin-bottom: 10px; color: #575556; font-size: 18px; font-weight: 700; line-height: 18px; letter-spacing: 0; ">Your points balance</h4>
+                    <h4 style="margin-top: 0; margin-bottom: 10px; color: #00763C; font-size: 18px; font-weight: 700; line-height: 18px; letter-spacing: 0; ">500 pts</h4>
+                    <a style="margin-top: 0; color: #575556; font-size: 18px; font-weight: 700; line-height: 18px; letter-spacing: 0; text-decoration: none; display: flex; align-items: center;" href="#"> <img style="max-width: 16px; max-height: 16px; margin-right: 5px;" src="img/arrow-1.png" alt=""> Learn more</a>
+                </div>
+            </div>
+            <div class="card" style="width: 100%; background-color: #fff; border-radius: 12px; margin: 0 5px;">
+                <img style="width: 100%; height: 75px; border-radius: 12px 12px 0px 0px;" src="img/card-2" alt="card-1">
+                <div class="card-detail" style="padding: 9px; display: flex; flex-direction: column; justify-content: space-between;">
+                    <h4 style="width: 80%; margin-top: 0; margin-bottom: 10px; color: #575556; font-size: 18px; font-weight: 700; line-height: 18px; letter-spacing: 0; ">See your latest offers</h4>
+                    <h4 style="margin-top: 0; margin-bottom: 10px; color: #00763C; font-size: 18px; font-weight: 700; line-height: 18px; letter-spacing: 0; ">0</h4>
+                    <a style="margin-top: 0; color: #575556; font-size: 18px; font-weight: 700; line-height: 18px; letter-spacing: 0; text-decoration: none; display: flex; align-items: center;" href="#"><img style="max-width: 16px; max-height: 16px; margin-right: 5px;" src="img/arrow-2.png" alt=""> Learn more</a>
+                </div>
+            </div>
+            <div class="card" style="width: 100%; background-color: #fff; border-radius: 12px; margin: 0 5px;">
+                <img style="width: 100%; height: 75px; border-radius: 12px 12px 0px 0px;" src="img/card-3" alt="card-1">
+                <div class="card-detail" style="padding: 9px; display: flex; flex-direction: column; justify-content: space-between;">
+                    <h4 style="width: 80%; margin-top: 0; margin-bottom: 10px; color: #575556; font-size: 18px; font-weight: 700; line-height: 18px; letter-spacing: 0; ">Latest Rewards</h4>
+                    <h4 style="margin-top: 0; margin-bottom: 10px; color: #00763C; font-size: 18px; font-weight: 700; line-height: 18px; letter-spacing: 0; ">0</h4>
+                    <a style="margin-top: 0; color: #575556; font-size: 18px; font-weight: 700; line-height: 18px; letter-spacing: 0; text-decoration: none; display: flex; align-items: center;" href="#"><img style="max-width: 16px; max-height: 16px; margin-right: 5px;" src="img/arrow-3.png" alt=""> Learn more</a>
+                </div>
+            </div>
+        </div>
+        <div class="cashback" style="background-image: url(img/mask-bg.png); background-position: bottom; background-size: cover; background-repeat: no-repeat; background-repeat: no-repeat;">
+            <div class="cards-content" style="text-align: center; position: relative;">
+                <h3 style="margin-top: 0px; margin-bottom: 10px; color: #DB000C; letter-spacing: 0.6px; font-size: 25px; font-weight: 700;">Remember to scan every</h3>
+                <h3 style="margin-top: 0px; color: #DB000C; letter-spacing: 0.6px; font-size: 26px; font-weight: 700;">Follow-on & Toddler milk pack for</h3>
+                <h1 style="transform: matrix(1, -0.05, 0.05, 1, 0, 0); letter-spacing: 0.21px; color: #DB000C; ">cashback*</h1>
+                <div style="position: relative; height: 150px;">
+                    <div class="boxes" style="display: flex; justify-content: center; position: relative;">
+                        <img class="box-1" style="position: absolute; left: 169px; max-width: 122px; max-height: 123px;" src="img/follow" alt="follow">
+                        <img class="box-2" style="position: absolute; left: 236px; max-width: 122px; max-height: 123px; z-index: 9999;" src="img/toddler-blue" alt="toddler-blue">
+                        <img class="box-3" style="position: absolute; left: 300px; max-width: 122px; max-height: 123px;" src="img/follow" alt="toddler-orange">
+                        <img class="box-4" style="position: absolute; left: 415px; bottom: -120px; max-width: 174px; max-height: 201px; transform: rotate(0deg)" src="img/phone-2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="cards-buttons" style="position: relative; padding: 0 64px;">
+                <div class="buttons" style="display: flex; flex-direction: row; justify-content: space-between; width: 100%;">
+                    <button style="border-radius: 16px; border: none; width: 136px; padding: 5px 0; background-color: #E60517; color: #fff; font-size: 18px; font-weight: 700;">About</button>
+                    <button style="border-radius: 16px; border: none; width: 136px; padding: 5px 0; background-color: #E60517; color: #fff; font-size: 18px; font-weight: 700;">Add points</button>
+                    <button style="border-radius: 16px; border: none; width: 136px; padding: 5px 0; background-color: #E60517; color: #fff; font-size: 18px; font-weight: 700;">FAQs</button>
+                </div>
+                <p style="padding-bottom: 22px; margin: 19px 0 0 0; font-size: 10px; line-height: 16px; color: #4C4C4C; letter-spacing: 0;">*Minimum number of packs before you can claim cashback. Available on Cow & Gate standard range Follow-on and Toddler milk 800g powder format. Terms & conditions apply and are available on our website.</p>
+            </div>
+        </div>
+        <div class="know-more" style="background-color: #EBEBEB; padding: 32px;">
+            <h2 style="text-align: center; margin: 0 0 15px 0; color: #575556; font-size: 27px; line-height: 32px; letter-spacing: 0; font-weight: 700;">Want to know more?</h2>
+            <div class="darkgray-box" style="position: relative; border-radius: 12px; margin-top: 104px; background-color: #D7D7D7; padding: 70px 31px 30px 31px;">
+                <img class="white-icon-box" style="position: absolute; top: -30%; left: 0; right: 0; margin: auto; transform: rotate(5deg); width: 113px; height: 113px; background-color: #fff; border-radius: 12px;" src="img/lets-talk.png" alt="">
+                <div class="topics" style="display: flex; margin-bottom: 25px;">
+                    <div class="topic" style="display: flex; width: 100%;">
+                        <img style="max-width: 48px; max-height: 48px; margin-right: 11px;" src="img/whatsapp-icon.png" alt="">
+                        <div class="text" style="width: 75%; ">
+                            <h4 style="margin: 0 0 2px 0; color: #E60517; font-size: 16px; line-height: 22px; letter-spacing: 0;">Whatsapp</h4>
+                            <p style="margin: 0; color: #575556; font-size: 12px; line-height: 16px;">Ask us a question (8am - 8pm Monday - Friday, 10am-4pm Weekends).</p>
+                        </div>
+                    </div>
+                    <div class="topic" style="display: flex; width: 100%;">
+                        <img style="max-width: 48px; max-height: 48px; margin-right: 11px;" src="img/messenger-icon.png" alt="">
+                        <div class="text" style="width: 65%; ">
+                            <h4 style="margin: 0 0 2px 0; color: #E60517; font-size: 16px; line-height: 22px; letter-spacing: 0;">Messenger</h4>
+                            <p style="margin: 0; color: #575556; font-size: 12px; line-height: 16px;">Contact us on Facebook (10am - 10pm, 7 days a week).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="topics" style="display: flex; margin-top: 25px;">
+                    <div class="topic" style="display: flex; width: 100%;">
+                        <img style="max-width: 48px; max-height: 48px; margin-right: 11px;" src="img/phone-icon.png" alt="">
+                        <div class="text" style="width: 65%; ">
+                            <h4 style="margin: 0 0 2px 0; color: #E60517; font-size: 16px; line-height: 22px; letter-spacing: 0;">Phone</h4>
+                            <p style="margin: 0; color: #575556; font-size: 12px; line-height: 16px;">Call us on 0800 996 1000 (8am - 8pm Monday to Friday).</p>
+                        </div>
+                    </div>
+                    <div class="topic" style="display: flex; width: 100%;">
+                        <img style="max-width: 48px; max-height: 48px; margin-right: 11px;" src="img/faqs-icon.png" alt="">
+                        <div class="text" style="width: 65%; ">
+                            <h4 style="margin: 0 0 2px 0; color: #E60517; font-size: 16px; line-height: 22px; letter-spacing: 0;">FAQs</h4>
+                            <p style="margin: 0; color: #575556; font-size: 12px; line-height: 16px;">Call us on 0800 996 1000 (8am - 8pm Monday to Friday).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer" style="padding: 30px 64px; background-color: #fff; display: flex; flex-direction: column; align-items: center;">
+            <div class="logo">
+                <img style="width: 79px; height: 55px;" src="https://smartmedia.digital4danone.com/is/content/danone/cow-and-gate?fmt=webp&wid=3840&fit=wrap" alt="">
+            </div>
+            <div class="links" style="display: flex; justify-content: space-between; width: 100%; margin-top: 20px;">
+                <a href="#" style="font-size: 12px; color: #575556; text-decoration: none; font-weight: 700;">Visit our website</a>
+                <a href="#" style="font-size: 12px; color: #575556; text-decoration: none; font-weight: 700;">Update your preferences</a>
+                <a href="#" style="font-size: 12px; color: #575556; text-decoration: none; font-weight: 700;">Privacy Policy</a>
+            </div>
+            <div class="footer-text" style="margin-top: 25px;">
+                <p style="font-size: 11px; line-height: 16px; font-weight: 300; letter-spacing: 0; color: #4C4C4C;">This information is being sent to you in response to your individual request for information by email from Scan & Save. If any of your details have changed, such as your email address, <a href="#" style="color: #4C4C4C;">please update your details</a>. This will help us give you the most relevant experience.</p>
+                <h5 style="margin-bottom: 5px; font-size: 11px; line-height: 16px; font-weight: 700; letter-spacing: 0; color: #4C4C4C;">Important notice </h5>
+                <p style="font-size: 11px; line-height: 16px; font-weight: 300; letter-spacing: 0; color: #4C4C4C;">Breastfeeding is best. Follow-on milk is only for babies over 6 months, as part of a mixed diet. It should not be used as a breastmilk substitute before 6 months. The decision to start weaning including the use of this product before 6 months should be made only on the advice of a doctor, dietitian, pharmacist, or other professional responsible for maternal and child care, based on baby’s individual needs. Use Toddler milk as part of a varied, balanced diet from 1 year onwards</p>
+                <p style="font-size: 11px; line-height: 16px; font-weight: 300; letter-spacing: 0; color: #4C4C4C;">This email has been sent on behalf of Nutricia Ltd; registered company number 00275552, registered address Newmarket Avenue, White Horse Business Park, Trowbridge, Wiltshire, BA14 0XQ.</p>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
