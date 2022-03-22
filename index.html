@@ -76,6 +76,7 @@
                 flex-direction: column !important;
                 justify-content: center !important;
                 text-align: center !important;
+                padding-top: 20px !important;
             }
             .cards-buttons .buttons button {
                 margin-bottom: 25px !important;
@@ -106,6 +107,12 @@
             .footer .links a {
                 margin-bottom: 15px !important;
             }
+            .cashback-bg-img-1 {
+                display: none !important;
+            }
+            .cashback-bg-img-2 {
+                display: block !important;
+            }
         }
     </style>
   </head>
@@ -125,7 +132,7 @@
             <p style="color: #575556; font-size: 15px; line-height: 24px; font-weight: 700; margin-bottom: 20px; margin-top: 0; text-align: left">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
             </p>
-            <button style="background: #00763C 0% 0% no-repeat padding-box; border: none; color: #fff; width: 184px; border-radius: 19px; font-size: 18px; font-weight: 700; letter-spacing: 0; text-align: center; padding: 10px 0;">Learn More</button>
+            <button style="background: #00763C 0% 0% no-repeat padding-box; border: none; color: #fff; width: 184px; border-radius: 20px; font-size: 18px; font-weight: 700; letter-spacing: 0; text-align: center; padding: 10px 0;">Learn More</button>
         </div>
         <div class="cards" style="background-color: #C8E7F8; position: relative; height: 270px; display: flex; flex-direction: row; align-items: center; padding: 40px 43px 10px 43px;">
             <div class="card" style="width: 100%; background-color: #fff; border-radius: 12px; margin: 0 15px;">
@@ -151,7 +158,9 @@
                 </div>
             </div>
         </div>
-        <div class="cashback" style="background-image: url(img/mask-bg.png); background-position: bottom; background-size: cover; background-repeat: no-repeat;">
+        <div class="cashback-bg-img-1" style="height: 323px; width: 100%; background-image: url(img/cashback-bg-2.jpeg); background-position: center; background-repeat: no-repeat; background-size: cover; padding-top: 30px; display: block;"></div>
+        <div class="cashback-bg-img-2" style="height: 323px; width: 100%; background-image: url(img/cashback-bg.jpeg); background-position: bottom; background-repeat: no-repeat; background-size: cover; display: none;"></div>
+        <!-- <div class="cashback" style="background-image: url(img/mask-bg.png); background-position: bottom; background-size: cover; background-repeat: no-repeat;">
             <div class="cards-content" style="text-align: center; position: relative;">
                 <h3 style="margin-top: 0px; margin-bottom: 10px; color: #DB000C; letter-spacing: 0.6px; font-size: 25px; font-weight: 700;">Remember to scan every</h3>
                 <h3 style="margin-top: 0px; color: #DB000C; letter-spacing: 0.6px; font-size: 26px; font-weight: 700;">Follow-on & Toddler milk pack for</h3>
@@ -165,12 +174,12 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="cards-buttons" style="position: relative; padding: 0 64px; background-color: #96C133;">
             <div class="buttons" style="display: flex; flex-direction: row; justify-content: space-between; width: 100%;">
-                <button style="border-radius: 16px; border: none; width: 136px; padding: 5px 0; background-color: #E60517; color: #fff; font-size: 18px; font-weight: 700;">About</button>
-                <button style="border-radius: 16px; border: none; width: 136px; padding: 5px 0; background-color: #E60517; color: #fff; font-size: 18px; font-weight: 700;">Add points</button>
-                <button style="border-radius: 16px; border: none; width: 136px; padding: 5px 0; background-color: #E60517; color: #fff; font-size: 18px; font-weight: 700;">FAQs</button>
+                <button style="border-radius: 18px; border: none; width: 136px; padding: 5px 0; background-color: #E60517; color: #fff; font-size: 18px; font-weight: 700;">About</button>
+                <button style="border-radius: 18px; border: none; width: 136px; padding: 5px 0; background-color: #E60517; color: #fff; font-size: 18px; font-weight: 700;">Add points</button>
+                <button style="border-radius: 18px; border: none; width: 136px; padding: 5px 0; background-color: #E60517; color: #fff; font-size: 18px; font-weight: 700;">FAQs</button>
             </div>
             <p style="padding-bottom: 22px; margin: 19px 0 0 0; font-size: 10px; line-height: 16px; color: #4C4C4C; letter-spacing: 0;">*Minimum number of packs before you can claim cashback. Available on Cow & Gate standard range Follow-on and Toddler milk 800g powder format. Terms & conditions apply and are available on our website.</p>
         </div>
